@@ -1,0 +1,20 @@
+{
+  "name": "backup-eth23",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server/test.js",
+    "watch": "tsc -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.470.0",
+    "@aws-sdk/lib-dynamodb": "^3.470.0",
+    "@lighthouse-web3/sdk": "^0.3.0",
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.2",
+    "typescript": "^5.3.3"
+  }
+}
